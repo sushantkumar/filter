@@ -1,7 +1,9 @@
-Search filter.
+<b>Search filter.</b>
 
-Usage:
+<b>Usage:</b>
+
 craete a table named sample.
 
-Fetch the data:
+<b>Fetch the data:</b>
+
 You can create run time query to fetch the products.
