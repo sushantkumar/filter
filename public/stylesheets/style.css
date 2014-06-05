@@ -1,8 +1,76 @@
 body {
-  padding: 50px;
+  padding: 0px 0px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #fff;
+  margin: 0 !important;
+  font-family: 'Open Sans',Arial,sans-serif;
+  
 }
 
 a {
   color: #00B7FF;
+  font: 'Open Sans',Arial,sans-serif;
+
+}
+.header{
+	background-color:#e3e4e4;
+	padding: 20px;
+	font-size: 20px;
+	color:#006dcc;
+	box-shadow:0px 2px 10px #000;
+	position: fixed;
+	width: 100%;
+	top:0;
+	z-index: 990;
+	height: auto;
+}
+.main{
+	border: solid 1px #ccc;
+	clear:both;
+	position: fixed;
+	top: 63px;
+	width: 100%;
+	height: auto;
+
+	
+}
+.filter{
+	width:15%;
+	padding:5px;
+	float:left;
+	background-color: #4F8FF6;
+	box-shadow:8px 0 18px -4px #c2c2c2;
+	
+}
+.platforms{
+	clear: both;
+	border-bottom: dotted 1px #005388;
+	padding: 10px 0;
+}
+.platforms h1{
+	font-size: 14px;
+	font-weight: bold;
+	color:#fff;
+    font: 'Open Sans',Arial,sans-serif;
+    letter-spacing: 1px
+
+}
+.platforms label{
+	font-size: 12px;
+}
+.clear{
+	clear:both;
+}
+.features {
+	clear: both;
+}
+.features h1 {
+	font-size: 14px;
+	font-weight: bold;
+	color:#FFF;
+	letter-spacing: 1px
+}
+.features label{
+	font-size: 12px;
+
 }

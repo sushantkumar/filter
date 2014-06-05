@@ -1,34 +1,37 @@
 extends layout
-
 block content
-  div(style='border: solid 1px #ccc;clear:both;')
-    div.filter(style='width:45%;padding:5px;float:left;')
-      div(style='clear: both;')
-        label Platform
-          br
-          input.platform(type='checkbox',  value='android' )
-          label Android
-          input.platform(type='checkbox', value='ios7')
-          label iOS
-          input.platform(type='checkbox', value='windows')
-          label Windows
+  include header
+  .main
+    .filter
+      .platforms
+        h1 Platform
+        input.platform(type='checkbox',  value='android' )
+        label Android
+        .clear
+        input.platform(type='checkbox', value='ios7')
+        label iOS
+        .clear
+        input.platform(type='checkbox', value='windows')
+        label Windows
 
-      div(style='clear: both;')
-        label Features
-        br
+      .features
+        h1 Features
+
         input.dualcore(type='checkbox', value='y')
         label Dual core
+        .clear
         input.camera(type='checkbox', value='5')
-        label
-          | 5MP Camera
+        label 5MP Camera
+        .clear
         input.dualsim(type='checkbox', value='y')
         label  Dual SIM
+        .clear
         input.ram(type='checkbox', value='1')
-        label
-          | 1GB RAM
-    div(style='width:45%; padding:5px;float:left;border-left:solid 1px #000;height:200px ')
+        label 1GB RAM
+        .clear
+    div(style='width:45%; padding:5px;float:left;height:200px ')
       #total
-      ul.data(style='list-style:none')
+      ul.data(style='list-style:none;')
         include product
         
 
